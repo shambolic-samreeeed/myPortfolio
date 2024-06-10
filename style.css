@@ -1,0 +1,236 @@
+*{
+    font-family: sans-serif;}
+html {
+        scroll-behavior: smooth;
+      }
+
+h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: nova square;
+}
+header{
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 10px;
+    
+}
+
+a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 30px;
+    
+}
+
+.container1{
+    display: flex;
+    align-items: center;
+}
+.abtme{
+    background-color: #ECF0F1;
+}
+h2{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    letter-spacing: 10px;
+    
+}
+
+img{
+    width: 500px;
+    position: relative;
+    flex-basis: 40%;
+    margin: 20px;
+    border-radius: 50px;
+    
+}
+.intro{
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+.introp{
+    letter-spacing: 2px;
+    font-style: bold;
+    font-size: 30px;
+    font-family:;
+
+}
+
+/* style for education */
+
+.edu{
+    background-color: #ECF0F1 ;
+    padding-bottom: 15px;
+    
+}
+
+table, th, td {
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+/* style for interests */
+
+
+.inth{
+    text-align: center;
+    margin: 20px;
+}
+.cont1{
+    background-color: #2980B9;
+    height: 210px;
+    width: 300px;
+    display:inline-block;
+    position:absolute;
+    right: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+}
+
+.cont2{
+    background-color: #2980B9;
+    height: 210px;
+    width: 300px;
+    display:inline-block;
+    position:absolute;
+    left: 200px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+}
+
+.cont3{
+    background-color: #2980B9;
+    height:210px;
+    width: 300px;
+    display:inline-block;
+    position:absolute;
+    left: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 40px;
+}
+p{
+    font-size: 20px;
+}
+
+/* style for contact form */
+.container{
+    
+    height: 240px;
+}
+
+.container2{
+    background-color: #ECF0F1;
+    height: 400px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.formh{
+    text-align: center;
+    font-family: sans-serif;
+    letter-spacing: normal;
+    font-size: 30px;
+    padding: 15px;
+    
+}
+
+.text{
+    text-align: center;
+    padding: 20px;
+}
+
+input{
+    height: 20px;
+    width: 200px;
+
+}
+.submit{
+    height: 30px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    
+}
+
+#submit{
+    background-color: green;
+    color: white;
+    border: 0px;
+}
+
+footer{
+    background-color: #333;
+    height: 45px;
+    margin-top: 15px;
+}
+
+.footerp{
+    color: azure;
+    font-size: 13px;
+    text-align: center;
+    padding-top:7px ;
+}
+
+.container3{
+    background-color: #ECF0F1;
+    width: 50%;
+    height: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.followh{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.followa{
+    color: green;
+    font-weight: 100;
+}
+
+/* hover effects */
+
+nav :hover{
+    color: #2ECC71 ;
+   
+}
+
+.followlink :hover{
+    color: #2ECC71;
+}
