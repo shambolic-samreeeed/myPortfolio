@@ -147,15 +147,11 @@ p{
 .container2{
     background-color: #ECF0F1;
     height: 400px;
-    width: 400px;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 40px;
+    width: auto;
     text-align: center;
 }
 
 .formh{
-    text-align: center;
     font-family: sans-serif;
     letter-spacing: normal;
     font-size: 30px;
@@ -203,12 +199,11 @@ footer{
 
 .container3{
     background-color: #ECF0F1;
-    width: 50%;
-    height: 110px;
+    width: auto;
+    height: 90px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 15px;
-    border-radius: 50px;
     text-align: center;
     font-size: 18px;
 }
